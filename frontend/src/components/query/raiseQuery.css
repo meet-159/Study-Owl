@@ -1,0 +1,62 @@
+/* src/raiseQueryForm.css */
+
+.raise-query-form-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f4f6f8;
+    min-height: 100vh;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  .raise-query-form {
+    background: white;
+    padding: 30px 25px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  .form-title {
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #555;
+  }
+  
+  .form-input,
+  .form-textarea {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  
+  .form-textarea {
+    resize: vertical;
+  }
+  
+  @media (max-width: 600px) {
+    .raise-query-form {
+      padding: 20px 15px;
+      max-width: 90%;
+    }
+  }
+  

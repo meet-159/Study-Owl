@@ -1,0 +1,20 @@
+.class-details-container {
+    width: 100%;
+    padding: 1rem;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+  }
+  
+  .class-details-container h2 {
+    margin-bottom: 1rem;
+  }
+  
+  .class-details-container p {
+    margin: 0.5rem 0;
+  }
+  
+  .class-details-container ul {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+  }
+  

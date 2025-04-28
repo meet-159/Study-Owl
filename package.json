@@ -1,0 +1,32 @@
+{
+  "name": "study-owl-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently \"nodemon backend/server.js\" \"npm run dev --prefix frontend\""
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "description": "",
+  "dependencies": {
+    "@tailwindcss/vite": "^4.0.15",
+    "autoprefixer": "^10.4.21",
+    "axios": "^1.8.4",
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.3",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "framer-motion": "^12.5.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.10.0",
+    "postcss": "^8.5.3",
+    "react-google-drive-picker": "^1.2.2",
+    "tailwindcss": "^4.0.15"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}

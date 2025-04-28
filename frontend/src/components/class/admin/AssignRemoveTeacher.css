@@ -1,0 +1,35 @@
+.assign-remove-container {
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: auto;
+  }
+  
+  .assign-remove-container select {
+    width: 100%;
+    padding: 0.5rem;
+    margin: 1rem 0;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  button {
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    margin-right:20px ;
+  }
+  
+  .success {
+    color: green;
+    margin-top: 1rem;
+  }
+  
+  .error {
+    color: red;
+    margin-top: 1rem;
+  }
+  
