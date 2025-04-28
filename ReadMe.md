@@ -150,6 +150,6 @@ Both can be obtained from the [Google Cloud Console](https://console.cloud.googl
 2. Install dependencies using `npm install`.
 4. Run locally using `npm run dev`.
 
-**Note:** To populate courses and classes you need to hardcode the course data as per required and then seed couse and seed class. For above files I have made folders `populate course` and `populateClasses` under the `backend` folder. To seed them simply run `node backend/populate courses/seedCourse.js` and `node backend/populateClasses/seedClasses.js`.
+>**Note:** To populate courses and classes you need to hardcode the course data as per required and then seed couse and seed class. For above files I have made folders `populate course` and `populateClasses` under the `backend` folder. To seed them simply run `node backend/populate courses/seedCourse.js` and `node backend/populateClasses/seedClasses.js`.
 ---
 
